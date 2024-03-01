@@ -1,6 +1,7 @@
 export default {
     roots: ["<rootDir>/src/test/"],
     testEnvironment: "jsdom",
+    moduleDirectories: ['src', 'node_modules'],
     transform: {
         "^.+\\.tsx?$": "ts-jest",
     },
